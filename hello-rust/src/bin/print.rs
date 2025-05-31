@@ -26,6 +26,6 @@ fn main() {
         version: "1.83.0".to_string(),
     };
 
-    println!("{:?}", lang);// works because of `Debug` derive
+    println!("{:?}", lang); // works because of `Debug` derive
     println!("{:#?}", lang);
 }
